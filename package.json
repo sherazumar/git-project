@@ -1,0 +1,23 @@
+{
+  "name": "git-project",
+  "version": "1.0.0",
+  "description": "This is an edited version of readme file.",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherazumar/git-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherazumar/git-project/issues"
+  },
+  "homepage": "https://github.com/sherazumar/git-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
