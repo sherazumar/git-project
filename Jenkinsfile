@@ -26,7 +26,7 @@ pipeline {
               steps {
                   echo 'deploying the software to aws ec2'
                   sh '''#!/bin/bash
-                  ssh ubuntu@ip-172-31-89-62 <<EOF
+                  ssh ubuntu@ip-172.31.90.59 <<EOF
                    cd /var/www/ticketing
                    sudo git reset --hard HEAD
                    sudo git pull
