@@ -4,7 +4,9 @@
   "description": "This is an edited version of readme file.",
   "main": "index.js",
   "scripts": {
-   "start": "node index.js" 
+    "start": "node index.js",
+    "test": "mocha --exit 'tests/mocha/*.test.js' 'tests/mocha/*/*.test.js' --timeout 50000",
+    "coverage": "nyc mocha --exit 'tests/mocha/*.test.js' 'tests/mocha/*/*.test.js' --timeout 50000"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,11 @@
   },
   "homepage": "https://github.com/sherazumar/git-project#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^9.1.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0"
   }
 }
