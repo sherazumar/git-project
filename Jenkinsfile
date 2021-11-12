@@ -31,7 +31,7 @@ pipeline {
                    sudo git reset --hard HEAD
                    sudo git pull
                    npm install
-                   pm2 restart all
+                   npm start
                    exit
                   EOF
                   '''
