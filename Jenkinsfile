@@ -30,8 +30,8 @@ pipeline {
                    cd /var/www/git-project
                    sudo git reset --hard HEAD
                    sudo git pull
-                   sudo npm install
-                   sudo npm start
+                   npm install
+                   npm start
                    exit
                   EOF
                   '''
