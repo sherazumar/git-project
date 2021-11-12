@@ -27,7 +27,7 @@ pipeline {
                   echo 'deploying the software to aws ec2'
                   sh '''#!/bin/bash
                   ssh ubuntu@ip-172.31.90.59 <<EOF
-                   cd /var/www/ticketing
+                   cd /var/www/git-peoject
                    sudo git reset --hard HEAD
                    sudo git pull
                    npm install
